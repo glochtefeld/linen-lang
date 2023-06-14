@@ -15,7 +15,7 @@ function cmd_build() {
 }
 
 function cmd_run_tests() {
-    ./build/linen-test
+    ./build/tests
 }
 
 function cmd_rebuild() {

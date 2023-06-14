@@ -8,8 +8,8 @@ add_executable(linen src/main.c
 )
 target_include_directories(linen PRIVATE include)
 
-add_executable(linen-test 
+add_executable(tests
     tests/main.c
 )
-target_include_directories(linen-test PRIVATE extern)
-target_link_libraries(linen-test PRIVATE munit)
+target_include_directories(tests PRIVATE extern)
+target_link_libraries(tests PRIVATE munit)
